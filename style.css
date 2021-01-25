@@ -1,0 +1,54 @@
+/*Mobile first design. */
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
+}
+
+/*Base / Mobile styles */
+
+header {
+    height: 48px;
+}
+#mob-logo {
+    width: 108px;
+    height: 48px;
+    float: left;
+}
+
+#menu-search {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+}
+#search {
+    height: 24px;
+    width: 24px;
+    margin: 5px 30px 0 0;
+}
+
+#menu {
+    height: 24px;
+    width: 24px;
+    margin: 5px 10px 0 0;
+}
+
+#advert {
+    clear:both;
+    overflow: hidden;
+    padding: 30px;
+    background-color: #fe0;
+}
+
+#advert a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.8rem;
+}
