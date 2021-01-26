@@ -52,3 +52,56 @@ header {
     color: black;
     font-size: 0.8rem;
 }
+
+.main-article {
+    background-image: url(images/news-image.jpg);
+    color: #fff;
+    height: 200px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.main-article li{
+    font-size: 0.7rem;
+    color: #888;
+    display: inline-block;
+}
+
+.main-article ul {
+    position: absolute;
+    bottom: 0;
+}
+
+.main-article h4 {
+    position: absolute;
+    bottom: 30px;
+}
+
+.header-genre {
+    color: #f42;
+    margin-bottom: 10px;
+}
+
+.latest-news-item {
+    display: flex;
+
+}
+
+.news-image {
+    background-image: url(images/latest\ image7.png);
+    height: 75px;
+    min-width: 75px;
+    background-position: 200px 200px;
+    margin-right: 5px;
+}
+
+.link-author a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.link-author p {
+    font-size: 0.7rem;
+    color: #888;
+}
