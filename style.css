@@ -6,10 +6,17 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: ARS Maquette,Helvetica Neue,Arial,sans-serif;
 }
 
+#container {
+    margin: 0 10px;
+}
 /*Base / Mobile styles */
 
 header {
@@ -92,7 +99,7 @@ header {
     height: 75px;
     min-width: 75px;
     background-position: 200px 200px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 .link-author a {
@@ -104,4 +111,48 @@ header {
 .link-author p {
     font-size: 0.7rem;
     color: #888;
+}
+
+#funding ul {
+list-style: none;
+color: #f42;
+margin-bottom: 15px;
+}
+
+.funding-box {
+    position: relative;
+}
+.funding-box-logo {
+    height: 70px;
+    min-width: 70px;
+    position: absolute;   
+}
+
+.funding-company-name {
+    background-color: #f42;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.funding-amount, .funding-round {
+    background-color: #f94;
+    text-align: center;
+}
+
+.funding-investor {
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+
+}
+
+.funding-industry {
+    padding-top: 10px;
+
+}
+
+.funding-news {
+    font-size: 0.6rem;
+    margin-bottom: 10px;
 }
