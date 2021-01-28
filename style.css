@@ -156,3 +156,42 @@ margin-bottom: 15px;
     font-size: 0.6rem;
     margin-bottom: 10px;
 }
+
+.most-popular {
+    background-image: url(images/popular-image.jpg);
+    width: 368px;
+    height: 276px;
+    color: #fff;
+    position: relative;
+}
+
+.most-popular h5 {
+    position: absolute;
+    bottom: 100px;
+}
+
+.most-popular-headline {
+    position: absolute;
+    bottom: 50px;
+
+}
+
+.latest {
+    color: #f42;
+    background-color: #f94;
+    position: relative;
+    height: 96px;
+    padding-bottom: 100px;
+}
+
+.latest-image {
+    width: 96px;
+    height: 96px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.latest h4 {
+    width: 50%;
+}
