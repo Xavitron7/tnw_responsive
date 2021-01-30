@@ -159,7 +159,6 @@ margin-bottom: 15px;
 
 .most-popular {
     background-image: url(images/popular-image.jpg);
-    width: 368px;
     height: 276px;
     color: #fff;
     position: relative;
@@ -176,12 +175,26 @@ margin-bottom: 15px;
 
 }
 
+.mp-author {
+    bottom: 25px;
+    position: absolute;
+    color: #ccc;
+}
+
+.mp-time {
+    position: absolute;
+    bottom: 10px;
+    color: #ccc;
+
+}
+
 .latest {
     color: #f42;
     background-color: #f94;
     position: relative;
     height: 96px;
     padding-bottom: 100px;
+    opacity: 0.9;
 }
 
 .latest-image {
@@ -194,4 +207,68 @@ margin-bottom: 15px;
 
 .latest h4 {
     width: 50%;
+}
+
+.category ul {
+    width: 90%;
+    margin: auto;
+
+}
+
+.category ul li {
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #888;
+}
+
+#social {
+    width: 100%;
+    background-color: #333;
+    padding: 20px 0;
+}
+
+#social-container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    justify-content:space-between;
+
+
+}
+
+.social-button {
+    width: 40px;
+    height: 40px;
+    background-color: #444;
+    background-image: url(images/icon-fb.svg);
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position: 12px 12px;
+}
+
+#corporate {
+    background-color: #333;
+    color: #999;
+    font-weight: 200;
+    padding: 20px 0;
+    font-size: 0.9rem;
+}
+
+#corporate ul {
+    list-style: none;
+    margin: auto;
+}
+
+#corporate ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #000;
+    color: #999;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.8rem;
 }
