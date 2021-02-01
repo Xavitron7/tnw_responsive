@@ -22,6 +22,9 @@ body {
 header {
     height: 48px;
 }
+
+#top-nav, #bottom-nav {display: none;}
+
 #mob-logo {
     width: 108px;
     height: 48px;
@@ -271,4 +274,77 @@ footer {
     padding: 20px 0;
     text-align: center;
     font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    header {
+        position: relative;
+        height: 70px;
+
+    }
+
+    #menu-search {
+        display: none;
+    }
+
+    #top-nav, #bottom-nav {display: block;}
+    #top-nav ul, #bottom-nav ul {list-style: none;}
+    #top-nav ul li, #bottom-nav ul li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    #top-nav {
+        background-color: #000;
+        color: #888;;
+        padding: 10px 0;
+        font-size: 0.8rem;
+    }
+       
+
+    
+    #mob-logo {
+        height: 70px;
+        
+    }
+
+    #bottom-nav ul li {
+        padding: 10px;
+    }
+    
+
+    #main-news {
+        display: grid;
+        border: 1px solid red;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+
+    }
+
+    #main-news-1 {
+        grid-area: 1 / 1 / 3 / 3;
+        height: auto;
+
+    }
+
+    #main-news-2 {
+        grid-area: 1 / 3 / 2 / 4;
+        
+    }
+
+    #main-news-3 {
+        grid-area: 2 / 3 / 3 / 4;
+
+        
+    }
+
+    #main-news-1 h4 {
+        font-size: 1.5rem;
+    }
+
+
+
+
+
 }
